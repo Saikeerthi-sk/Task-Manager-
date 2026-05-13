@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "packageManager": "npm@10",
   "engines": {
-    "node": ">=20"
+    "node": ">=20 <24"
   },
   "workspaces": [
     "server",
@@ -15,8 +15,7 @@
     "build": "npm run build --prefix client && npm run build --prefix server",
     "start": "npm run start --prefix server",
     "db:migrate": "npm run db:migrate --prefix server",
-    "db:generate": "npm run db:generate --prefix server",
-    "postinstall": "npm rebuild"
+    "db:generate": "npm run db:generate --prefix server"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
