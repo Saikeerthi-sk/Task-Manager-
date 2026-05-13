@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+
+# env
+.env
+.env.*
+!.env.example
+
+# build outputs
+dist
+build
+.vite
+
+# prisma
+# NOTE: Prisma migrations should be committed for Railway deploys
+
