@@ -16,9 +16,7 @@
     "start": "npm run start --prefix server",
     "db:migrate": "npm run db:migrate --prefix server",
     "db:generate": "npm run db:generate --prefix server"
-  },
-  "devDependencies": {
-    "express": "^4.21.2"
   }
+  
 }
 
