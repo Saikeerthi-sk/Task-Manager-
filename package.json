@@ -18,7 +18,7 @@
     "db:generate": "npm run db:generate --prefix server"
   },
   "devDependencies": {
-    "express": "4.22.2"
+    "express": "^4.21.2"
   }
 }
 
